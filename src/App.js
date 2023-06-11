@@ -13,7 +13,7 @@ const styles = {
 
 export default function App() {
   return (
-    <div>
+    <div className="container ">
       <Steps />
     </div>
   );
@@ -38,7 +38,7 @@ function Steps() {
       </button>
 
       {isOpen && (
-        <div className="steps">
+        <div className="steps ">
           <div className="numbers">
             <div className={step >= 1 ? 'active' : ''}>1</div>
             <div className={step >= 2 ? 'active' : ''}>2</div>
