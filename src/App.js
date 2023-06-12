@@ -12,11 +12,7 @@ const styles = {
 };
 
 export default function App() {
-  return (
-    <div className="container ">
-      <Steps />
-    </div>
-  );
+  return <Steps />;
 }
 
 function Steps() {

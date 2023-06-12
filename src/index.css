@@ -5,14 +5,7 @@
 body {
   font-family: sans-serif;
   color: #333;
-}
-
-.steps {
-  width: 600px;
-  background-color: #f7f7f7;
-  border-radius: 7px;
-  padding: 25px 100px;
-  margin: 100px auto;
+  width: 100%;
 }
 
 .numbers {
@@ -88,4 +81,24 @@ h3 {
 
 .close:hover {
   color: #7950f2;
+}
+@media screen and (max-width: 576px) {
+  .steps {
+    width: 15rem;
+    margin: auto;
+    /* margin-left: 0; */
+    /* padding: 25px 50px; */
+  }
+  .container {
+    /* margin: auto; */
+  }
+}
+@media screen and (min-width: 577px) {
+  .steps {
+    width: 600px;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    padding: 25px 100px;
+    margin: 100px auto;
+  }
 }
