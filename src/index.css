@@ -5,7 +5,12 @@
 body {
   font-family: sans-serif;
   color: #333;
-  width: 100%;
+  width: 95%;
+}
+
+.steps {
+  background-color: #f7f7f7;
+  border-radius: 7px;
 }
 
 .numbers {
@@ -69,7 +74,6 @@ h3 {
 }
 
 .close {
-  /* position: absolute; */
   top: 16px;
   right: 16px;
   border: none;
@@ -84,13 +88,9 @@ h3 {
 }
 @media screen and (max-width: 576px) {
   .steps {
-    width: 15rem;
+    width: 18rem;
     margin: auto;
-    /* margin-left: 0; */
-    /* padding: 25px 50px; */
-  }
-  .container {
-    /* margin: auto; */
+    padding: 25px 50px;
   }
 }
 @media screen and (min-width: 577px) {
